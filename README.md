@@ -2,6 +2,12 @@
 
 > template to create a react component with ts
 
+- code by `typescript`
+- use `jest` for unit test
+- build doc by `docz`
+- bundled by `rollup`
+- use `poi` to develop
+
 ## Usage
 
 Install [SAO](https://github.com/saojs/sao) first.

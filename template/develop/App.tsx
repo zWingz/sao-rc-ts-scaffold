@@ -1,11 +1,10 @@
 import React from 'react'
 import { hot } from 'react-hot-loader'
-import './style'
-
+import {HelloWorld} from '../src'
 declare const module: any
 
 const App = hot(module)(() => {
-  return <div/>
+  return <HelloWorld/>
 })
 
 export default App

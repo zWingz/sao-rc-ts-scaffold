@@ -1,4 +1,6 @@
+<%_ if (useSass) { -%>
 import { css } from 'docz-plugin-css'
+<%_ } -%>
 export default {
   base: '/<%= name %>/',
   title: '/<%= name %>/',
@@ -11,10 +13,12 @@ export default {
     mode: 'light'
   },
   hashRouter: true,
-  codeSandbox: false,
+  <%_ if (useSass) { -%>
   plugins: [
     css({
       preprocessor: 'sass'
     })
-  ]
+  ],
+  <%_ } -%>
+  codeSandbox: false
 }

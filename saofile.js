@@ -34,6 +34,12 @@ module.exports = {
           return `github.com/${username}`
         },
         store: true
+      },
+      {
+        name: 'useSass',
+        type: 'confirm',
+        message: 'Use sass?',
+        default: false
       }
     ]
   },
@@ -45,8 +51,14 @@ module.exports = {
     {
       type: 'move',
       patterns: {
-        gitignore: '.gitignore'
+        gitignore: '.gitignore',
+        "_package.json": 'package.json',
       }
+    },
+    {
+      type: 'remove',
+      files: 'postcss.config.js',
+      when: '!useSass'
     }
   ],
   async completed() {
