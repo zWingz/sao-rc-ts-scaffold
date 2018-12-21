@@ -1,0 +1,25 @@
+{
+  "name": "sao-rc-component-ts",
+  "version": "0.0.0",
+  "description": "template to create a react component with ts",
+  "repository": {
+    "url": "zwingz/sao-rc-component-ts",
+    "type": "git"
+  },
+  "author": "zwingz <zhengzwing@gmail.com> (github.com/zwingz)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}
