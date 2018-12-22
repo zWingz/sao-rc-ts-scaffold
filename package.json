@@ -1,9 +1,9 @@
 {
   "name": "sao-rc-ts-scaffold",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "template to create a react component with ts",
   "repository": {
-    "url": "zwingz/sao-rc-component-ts",
+    "url": "zwingz/sao-rc-ts-scaffold",
     "type": "git"
   },
   "author": "zwingz <zhengzwing@gmail.com> (github.com/zwingz)",
