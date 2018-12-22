@@ -21,13 +21,13 @@ npm i -g sao
 ### From npm
 
 ```bash
-sao rc-component-ts my-project
+sao sao-rc-ts-scaffold my-project
 ```
 
 ### From git
 
 ```bash
-sao zwingz/sao-rc-component-ts my-project
+sao zwingz/sao-rc-ts-scaffold my-project
 ```
 
 ## License
