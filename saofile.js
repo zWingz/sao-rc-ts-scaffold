@@ -57,8 +57,9 @@ module.exports = {
     },
     {
       type: 'remove',
-      files: 'postcss.config.js',
-      when: '!useSass'
+      files: {
+        'postcss.config.js': '!useSass'
+      }
     }
   ],
   async completed() {

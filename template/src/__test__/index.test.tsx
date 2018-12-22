@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { shallow } from 'enzyme'
-import {
-  HelloWorld
-} from '..'
+import { HelloWorld } from '..'
 describe('test ', () => {
   it('test ', () => {
     const wrapper = shallow(<HelloWorld/>)
