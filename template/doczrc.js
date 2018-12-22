@@ -3,7 +3,7 @@ import { css } from 'docz-plugin-css'
 <%_ } -%>
 export default {
   base: '/<%= name %>/',
-  title: '/<%= name %>/',
+  title: '<%= name %>',
   description: '<%= description %>',
   dest: 'website',
   typescript: true,
