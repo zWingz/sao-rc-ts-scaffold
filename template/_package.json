@@ -50,6 +50,7 @@
     "poi": "^12.2.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "husky-tslint-pre-commit": "^1.0.2",
     "rollup": "^0.67.3",
     <%_ if (useSass) { -%>
     "rollup-plugin-postcss": "^1.6.2",

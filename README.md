@@ -2,11 +2,12 @@
 
 > template to create a react component with ts
 
-- code by `typescript`
-- use `jest` for unit test
-- build doc by `docz`
-- bundled by `rollup`
-- use `poi` to develop
+- [typescript](https://github.com/Microsoft/TypeScript)
+- [jest](https://github.com/facebook/jest) for unit test
+- doc by [docz](https://github.com/pedronauck/docz)
+- bundled by [rollup](https://github.com/rollup/rollup)
+- [poi](https://github.com/egoist/poi) to develop
+- [husky-tslint-pre-commit](https://github.com/zWingz/husky-tslint-pre-commit) to hook `pre-commit`
 
 ## Usage
 
