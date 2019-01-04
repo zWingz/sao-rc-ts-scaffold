@@ -18,7 +18,8 @@
     "scaffolding"
   ],
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "prepublish": "ava"
   },
   "dependencies": {
     "superb": "^1.3.0"
