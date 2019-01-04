@@ -9,9 +9,11 @@ test('defaults', async t => {
   t.snapshot(stream.fileList, 'Generated files')
 })
 
-test('test sass', async t => {
+test('test useSass', async t => {
   const stream = await sao.mock({ generator }, {
-    useSass: true
+    useSass: true,
+    name: 'test project',
+    description: 'test desc'
   })
   const { readFile, fileList, api } = stream
   t.true(fileList.filter(each => each === 'postcss.config.js').length === 1)
@@ -25,5 +27,9 @@ test('test sass', async t => {
   t.true('autoprefixer' in devDependencies)
   const doczrc = await readFile('doczrc.js')
   t.snapshot(doczrc, 'doczrc with sass')
+  const rollup = await readFile('rollup.config.js')
+  t.snapshot(rollup, 'rollup with sass')
+  const poi = await readFile('poi.config.js')
+  t.snapshot(poi, 'poi with sass')
   // t.true()
 })
